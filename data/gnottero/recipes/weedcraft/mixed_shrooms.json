@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:chain_command_block"
+        },
+        {
+            "item": "minecraft:structure_block"
+        },
+        {
+            "item": "minecraft:nether_wart"
+        }
+    ],
+    "result": {
+        "item": "minecraft:knowledge_book",
+        "count": 1
+    }
+}

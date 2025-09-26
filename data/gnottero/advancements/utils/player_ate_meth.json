@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:golden_apple"],
+          "nbt": "{Meth:1b}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gnottero:weedcraft/drugs/meth_effects"
+  }
+}

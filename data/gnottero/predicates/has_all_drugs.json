@@ -1,0 +1,18 @@
+[
+    {
+        "condition": "minecraft:reference",
+        "name": "gnottero:used_blunt"
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "gnottero:used_meth"
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "gnottero:used_cocaine"
+    },
+    {
+        "condition": "minecraft:reference",
+        "name": "gnottero:used_shrooms"
+    }
+]

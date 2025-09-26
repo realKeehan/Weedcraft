@@ -1,0 +1,43 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_apple",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "bold": true,
+                                "italic": true,
+                                "color": "#5E2C13",
+                                "text": "Mixed Shrooms"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "This is, indeed, a suspicious bag.",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "Try using them to find out what effects it has.",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{MixedShrooms:1b, CustomModelData:1280203}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

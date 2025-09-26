@@ -1,0 +1,43 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "bold": false,
+                                "italic": false,
+                                "color": "white",
+                                "text": "Bottled Amethyst"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "What a strange bottle.",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "I wonder what it can be used for.",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{BottledAmethyst:1b, CustomModelData:1280200}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
