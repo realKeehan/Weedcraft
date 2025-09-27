@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald"
+    },
+    "title": "Trusted Supplier",
+    "description": "Convert a wandering trader into a dealer.",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "keehan:weedcraft",
+  "criteria": {
+    "conversion": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
