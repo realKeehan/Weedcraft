@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:golden_apple",
+        "nbt": "{CustomModelData:1280202}"
+      },
+      "title": "That's Not Snow?",
+      "description": "Craft some Cocaine!",
+      "frame": "challenge",
+      "show_toast": true,
+      "announce_to_chat": true,
+      "hidden": false
+    },
+    "parent": "keehan:weedcraft",
+    "criteria": {
+      "tool_part_crafting": {
+        "trigger": "minecraft:recipe_unlocked",
+        "conditions": {
+          "recipe": "keehan:weedcraft/cocaine"
+        }
+      }
+    }
+  }
+  

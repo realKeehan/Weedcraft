@@ -10,7 +10,7 @@
                     "children": [
                         {
                             "type": "minecraft:loot_table",
-                            "name": "gnottero:drugs/weed",
+                            "name": "keehan:drugs/weed",
                             "conditions": [
                                 {
                                     "condition": "minecraft:match_tool",
@@ -93,7 +93,7 @@
                     "children": [
                         {
                             "type": "minecraft:loot_table",
-                            "name": "gnottero:drugs/weed",
+                            "name": "keehan:drugs/weed",
                             "conditions": [
                                 {
                                     "condition": "minecraft:match_tool",

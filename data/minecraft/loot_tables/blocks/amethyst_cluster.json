@@ -10,7 +10,7 @@
                     "children": [
                         {
                             "type": "minecraft:loot_table",
-                            "name": "gnottero:drugs/botted_amethyst",
+                            "name": "keehan:drugs/botted_amethyst",
                             "conditions": [
                                 {
                                     "condition": "minecraft:match_tool",
