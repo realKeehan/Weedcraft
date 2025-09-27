@@ -12,9 +12,9 @@ A custom Minecraft datapack that adds drug-themed farming, processing, and consu
 
 | Tool | Crafting Ingredients | Use |
 | ---- | -------------------- | --- |
-| **Chisel** | Iron ingots & stick in a vertical pattern. | Mine amethyst clusters to bottle Amethyst essence.
-| **Loppers** | Iron ingots surrounding a centered stick. | Trim large ferns and mushrooms to gather Weed and Shredded Shrooms.
-| **Pruning Machete** | Wide iron head with a stick handle. | Slice mature cocoa pods for Coca Leaves while still yielding cocoa beans.
+| **Chisel**<br>![Chisel](https://i.imgur.com/8SvaEgX.png) | Iron ingots & stick in a vertical pattern. | Mine amethyst clusters to bottle Amethyst essence.
+| **Loppers**<br>![Loppers](https://i.imgur.com/ln3dE4n.png) | Iron ingots surrounding a centered stick. | Trim large ferns and mushrooms to gather Weed and Shredded Shrooms.
+| **Pruning Machete**<br>![Pruning Machete](https://i.imgur.com/XqYnrpE.png) | Wide iron head with a stick handle. | Slice mature cocoa pods for Coca Leaves while still yielding cocoa beans.
 
 When crafted, these recipes output a temporary knowledge book which the datapack swaps for the named tool and removes the recipe so it must be re-discovered.
 
@@ -31,11 +31,11 @@ All drug and tool recipes are gated behind unlock-once knowledge books that the 
 
 | Product | Recipe | Notes |
 | ------- | ------ | ----- |
-| **Blunt** | Weed + Paper + Magma Cream (shapeless). | Consuming applies mixed defensive and disorienting effects (see below).
-| **Cocaine** | Coca Leaves + Sugar + Charcoal (shapeless). | Grants high-speed buffs with harsh side effects.
-| **Crystal Meth** | Bottled Amethyst + Gunpowder + Bone Meal (shapeless). | Adds strength and night vision with brief nausea and poison.
-| **Mixed Shrooms** | Red Shredded Shrooms + Brown Shredded Shrooms + Nether Wart (shapeless). | Provides luck and regeneration after a nausea hit.
-| **Budding Amethyst** | Nether Star surrounded by Amethyst Blocks (shaped). | Crafts an actual budding amethyst block for renewable crystal farming.
+| **Blunt**<br>![Blunt](https://i.imgur.com/XGt6TXo.png) | Weed + Paper + Magma Cream (shapeless). | Consuming applies mixed defensive and disorienting effects (see below).
+| **Cocaine**<br>![Cocaine](https://i.imgur.com/G6rUGKX.png) | Coca Leaves + Sugar + Charcoal (shapeless). | Grants high-speed buffs with harsh side effects.
+| **Crystal Meth**<br>![Meth](https://i.imgur.com/rKtY5f7.png) | Bottled Amethyst + Gunpowder + Bone Meal (shapeless). | Adds strength and night vision with brief nausea and poison.
+| **Mixed Shrooms**<br>![Shrooms](https://i.imgur.com/8ZrLIRx.png) | Red Shredded Shrooms + Brown Shredded Shrooms + Nether Wart (shapeless). | Provides luck and regeneration after a nausea hit.
+| **Budding Amethyst**<br>![Budding Amethyst](https://i.imgur.com/11QNPjG.png) | Nether Star surrounded by Amethyst Blocks (shaped). | Crafts an actual budding amethyst block for renewable crystal farming.
 
 ## Drug Effects & Safety
 
@@ -50,3 +50,5 @@ All drug and tool recipes are gated behind unlock-once knowledge books that the 
 Advancements track crafting each consumable and reward a final goal for making every drug, plus a secret feat for overdosing. They also act as hooks for swapping knowledge books with custom loot.
 
 Use this reference to plan your farm, schedule your highs carefully, and avoid the fatal combination!
+
+![Basic Instructions](https://i.imgur.com/ajpdfXu.png)
