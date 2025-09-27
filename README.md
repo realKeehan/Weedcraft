@@ -29,13 +29,34 @@ When crafted, these recipes output a temporary knowledge book which the datapack
 
 All drug and tool recipes are gated behind unlock-once knowledge books that the datapack converts into the actual items via loot tables.
 
+![Overview of Weedcraft crafting recipes](https://i.imgur.com/ajpdfXu.png)
+
 | Product | Recipe | Notes |
 | ------- | ------ | ----- |
 | **Blunt** | Weed + Paper + Magma Cream (shapeless). | Consuming applies mixed defensive and disorienting effects (see below).
-| **Cocaine** | Coca Leaves + Sugar + Charcoal (shapeless). | Grants high-speed buffs with harsh side effects.
-| **Crystal Meth** | Bottled Amethyst + Gunpowder + Bone Meal (shapeless). | Adds strength and night vision with brief nausea and poison.
-| **Mixed Shrooms** | Red Shredded Shrooms + Brown Shredded Shrooms + Nether Wart (shapeless). | Provides luck and regeneration after a nausea hit.
-| **Budding Amethyst** | Nether Star surrounded by Amethyst Blocks (shaped). | Crafts an actual budding amethyst block for renewable crystal farming.
+| **Cocaine** | ![Cocaine crafting recipe](https://i.imgur.com/G6rUGKX.png)<br/>Coca Leaves + Sugar + Charcoal (shapeless). | Grants high-speed buffs with harsh side effects.
+| **Crystal Meth** | ![Crystal Meth crafting recipe](https://i.imgur.com/rKtY5f7.png)<br/>Bottled Amethyst + Gunpowder + Bone Meal (shapeless). | Adds strength and night vision with brief nausea and poison.
+| **Mixed Shrooms** | ![Shrooms crafting recipe](https://i.imgur.com/8ZrLIRx.png)<br/>Red Shredded Shrooms + Brown Shredded Shrooms + Nether Wart (shapeless). | Provides luck and regeneration after a nausea hit.
+| **Budding Amethyst** | ![Budding Amethyst crafting recipe](https://i.imgur.com/11QNPjG.png)<br/>Nether Star surrounded by Amethyst Blocks (shaped). | Crafts an actual budding amethyst block for renewable crystal farming.
+| **Weed** | ![Weed crafting recipe](https://i.imgur.com/XGt6TXo.png)<br/>Large ferns in a ring around Bone Meal (shaped). | Unlocks replantable Weed for rolling Blunts.
+
+![Pruning Machete crafting recipe](https://i.imgur.com/XqYnrpE.png)
+
+### Individual Recipe References
+
+![Loppers crafting recipe](https://i.imgur.com/ln3dE4n.png)
+
+![Chisel crafting recipe](https://i.imgur.com/8SvaEgX.png)
+
+![Crystal Meth crafting recipe](https://i.imgur.com/rKtY5f7.png)
+
+![Cocaine crafting recipe](https://i.imgur.com/G6rUGKX.png)
+
+![Shrooms crafting recipe](https://i.imgur.com/8ZrLIRx.png)
+
+![Budding Amethyst crafting recipe](https://i.imgur.com/11QNPjG.png)
+
+![Weed crafting recipe](https://i.imgur.com/XGt6TXo.png)
 
 ## Drug Effects & Safety
 
