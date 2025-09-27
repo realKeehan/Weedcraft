@@ -36,7 +36,7 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "gnottero:drugs/coca_leaves",
+                    "name": "keehan:drugs/coca_leaves",
                     "conditions": [
                         {
                             "condition": "minecraft:match_tool",

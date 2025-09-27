@@ -44,7 +44,7 @@
                         "condition": "minecraft:inverted",
                         "term": {
                             "condition": "minecraft:reference",
-                            "name": "gnottero:has_active_drugs"
+                            "name": "keehan:has_active_drugs"
                         }
                     }
                 ]

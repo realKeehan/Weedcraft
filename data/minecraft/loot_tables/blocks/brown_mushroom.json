@@ -10,7 +10,7 @@
                     "children": [
                         {
                             "type": "minecraft:loot_table",
-                            "name": "gnottero:drugs/brown_shredded_shrooms",
+                            "name": "keehan:drugs/brown_shredded_shrooms",
                             "conditions": [
                                 {
                                     "condition": "minecraft:match_tool",

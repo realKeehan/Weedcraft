@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "tool_part_crafting": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "keehan:weedcraft/meth"
+      }
+    }
+  },
+  "rewards": {
+    "function": "keehan:weedcraft/recipes/give_meth"
+  }
+}
