@@ -1,5 +1,5 @@
-## Convert a wandering trader into a dealer when clicked with a blunt
-    #> Called by the "keehan:utils/player_used_blunt_on_wandering_trader" advancement
+## Convert a wandering trader into a dealer when clicked with a weed plant
+    #> Called by the "keehan:utils/player_used_weed_plant_on_wandering_trader" advancement
 
     # Mark the closest trader that hasn't been converted yet
     execute as @e[type=minecraft:wandering_trader,tag=!weedcraft.drug_dealer,sort=nearest,limit=1,distance=..3] run tag @s add weedcraft.manual_conversion_candidate
