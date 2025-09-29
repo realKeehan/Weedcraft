@@ -35,6 +35,19 @@
                             "function": "minecraft:set_count",
                             "count": 2.0,
                             "add": false
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "bold": false,
+                                "italic": false,
+                                "color": "dark_green",
+                                "text": "Weed Plant"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{WeedPlant:1b}"
                         }
                     ]
                 }

@@ -21,7 +21,7 @@ When crafted, these recipes output a temporary knowledge book which the datapack
 ### Resource Drops
 
 * **Bottled Amethyst** – Harvest amethyst clusters with the Chisel to bottle concentrated amethyst.
-* **Weed** – Use Loppers on large ferns to collect custom Weed and extra ferns.
+* **Weed** – Use Loppers on large ferns to collect custom Weed and Weed Plants for replanting.
 * **Red & Brown Shredded Shrooms** – Clip mushrooms with Loppers for shredded components.
 * **Coca Leaves** – Cut fully grown cocoa pods with the Pruning Machete.
 
@@ -52,3 +52,10 @@ Advancements track crafting each consumable and reward a final goal for making e
 Use this reference to plan your farm, schedule your highs carefully, and avoid the fatal combination!
 
 ![Basic Instructions](https://i.imgur.com/ajpdfXu.png)
+
+## Utility Commands
+
+Run these functions directly (e.g. `/function keehan:weedcraft/commands/spawn_drug_dealer`) to assist with testing or creative setups:
+
+* `keehan:weedcraft/commands/spawn_drug_dealer` – Summons a wandering trader and immediately configures them as a drug dealer.
+* `keehan:weedcraft/commands/give_field_guide` – Gives the Weedcraft Field Guide sold by the dealer.

@@ -7,8 +7,10 @@
           "type": "minecraft:wandering_trader"
         },
         "item": {
-          "items": ["minecraft:golden_apple"],
-          "nbt": "{Blunt:1b}"
+          "items": [
+            "minecraft:fern"
+          ],
+          "nbt": "{WeedPlant:1b}"
         }
       }
     }
