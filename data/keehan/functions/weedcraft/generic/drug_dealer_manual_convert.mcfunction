@@ -1,4 +1,4 @@
-## Convert a wandering trader into a dealer when clicked with a weed plant
+## Convert a wandering trader into a dealer when clicked with the weed item
     #> Called by the "keehan:utils/player_used_weed_plant_on_wandering_trader" advancement
 
     # Mark the closest trader that hasn't been converted yet
