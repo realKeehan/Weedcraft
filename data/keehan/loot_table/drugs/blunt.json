@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_apple",
+                    "components": {
+                        "minecraft:custom_name": {
+                            "bold": true,
+                            "italic": true,
+                            "color": "green",
+                            "text": "Blunt"
+                        },
+                        "minecraft:lore": [
+                            {
+                                "text": "This sigarette seems a little bit strange.",
+                                "color": "gray",
+                                "italic": false
+                            },
+                            {
+                                "text": "Try using it to find out what effects it has.",
+                                "color": "gray",
+                                "italic": false
+                            }
+                        ],
+                        "minecraft:custom_model_data": 1280201,
+                        "minecraft:custom_data": "{Blunt:1b}"
+                    }
+                }
+            ]
+        }
+    ]
+}

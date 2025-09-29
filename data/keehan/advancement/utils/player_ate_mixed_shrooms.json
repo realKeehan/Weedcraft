@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:golden_apple"
+          ],
+          "components": {
+            "minecraft:custom_data": "{MixedShrooms:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "keehan:weedcraft/drugs/mixed_shrooms_effects"
+  }
+}

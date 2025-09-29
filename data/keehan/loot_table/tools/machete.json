@@ -1,0 +1,23 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:iron_sword",
+                    "components": {
+                        "minecraft:custom_name": {
+                            "bold": false,
+                            "italic": false,
+                            "color": "white",
+                            "text": "Pruning Machete"
+                        },
+                        "minecraft:custom_model_data": 1280200,
+                        "minecraft:custom_data": "{Machete:1b}"
+                    }
+                }
+            ]
+        }
+    ]
+}
