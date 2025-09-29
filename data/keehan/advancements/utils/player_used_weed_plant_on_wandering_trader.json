@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "requirement": {
+    "weed": {
       "trigger": "minecraft:item_used_on_entity",
       "conditions": {
         "entity": {
@@ -13,8 +13,73 @@
           "nbt": "{Weed:1b}"
         }
       }
+    },
+    "blunt": {
+      "trigger": "minecraft:item_used_on_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_apple"
+          ],
+          "nbt": "{Blunt:1b}"
+        }
+      }
+    },
+    "cocaine": {
+      "trigger": "minecraft:item_used_on_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_apple"
+          ],
+          "nbt": "{Cocaine:1b}"
+        }
+      }
+    },
+    "meth": {
+      "trigger": "minecraft:item_used_on_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_apple"
+          ],
+          "nbt": "{Meth:1b}"
+        }
+      }
+    },
+    "mixed_shrooms": {
+      "trigger": "minecraft:item_used_on_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wandering_trader"
+        },
+        "item": {
+          "items": [
+            "minecraft:golden_apple"
+          ],
+          "nbt": "{MixedShrooms:1b}"
+        }
+      }
     }
   },
+  "requirements": [
+    [
+      "weed",
+      "blunt",
+      "cocaine",
+      "meth",
+      "mixed_shrooms"
+    ]
+  ],
   "rewards": {
     "function": "keehan:weedcraft/generic/drug_dealer_manual_convert"
   }
