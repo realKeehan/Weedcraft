@@ -1,0 +1,35 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:repeating_command_block",
+                    "components": {
+                        "minecraft:custom_name": {
+                            "bold": false,
+                            "italic": false,
+                            "color": "white",
+                            "text": "Coca Leaves"
+                        },
+                        "minecraft:lore": [
+                            {
+                                "text": "These are, indeed, some weird leaves.",
+                                "color": "gray",
+                                "italic": false
+                            },
+                            {
+                                "text": "I wonder what they can be used for.",
+                                "color": "gray",
+                                "italic": false
+                            }
+                        ],
+                        "minecraft:custom_model_data": 1280200,
+                        "minecraft:custom_data": "{CocaLeaves:1b}"
+                    }
+                }
+            ]
+        }
+    ]
+}

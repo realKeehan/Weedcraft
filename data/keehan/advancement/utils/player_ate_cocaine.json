@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:golden_apple"
+          ],
+          "components": {
+            "minecraft:custom_data": "{Cocaine:1b}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "keehan:weedcraft/drugs/cocaine_effects"
+  }
+}
