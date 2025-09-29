@@ -8,9 +8,9 @@
         },
         "item": {
           "items": [
-            "minecraft:fern"
+            "minecraft:jigsaw"
           ],
-          "nbt": "{WeedPlant:1b}"
+          "nbt": "{Weed:1b}"
         }
       }
     }
