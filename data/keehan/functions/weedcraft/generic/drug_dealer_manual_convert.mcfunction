@@ -12,3 +12,6 @@
 
     # Clean up the temporary tag
     execute as @e[tag=weedcraft.manual_conversion_candidate] run tag @s remove weedcraft.manual_conversion_candidate
+
+    # Reset the trigger advancement so the player can convert another trader
+    advancement revoke @s only keehan:utils/player_used_drug_on_wandering_trader

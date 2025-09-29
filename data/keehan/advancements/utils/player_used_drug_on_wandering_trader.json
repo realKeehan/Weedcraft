@@ -73,18 +73,10 @@
   },
   "requirements": [
     [
-      "weed"
-    ],
-    [
-      "blunt"
-    ],
-    [
-      "cocaine"
-    ],
-    [
-      "meth"
-    ],
-    [
+      "weed",
+      "blunt",
+      "cocaine",
+      "meth",
       "shrooms"
     ]
   ],
