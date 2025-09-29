@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": "\"WeedCraft\" by Keehan",
+    "background": "minecraft:textures/block/gray_concrete.png",
+    "icon": {
+      "item": "minecraft:jigsaw",
+      "components": {
+        "minecraft:custom_model_data": 1280200
+      }
+    },
+    "show_toast": false,
+    "title": "WeedCraft"
+  }
+}
