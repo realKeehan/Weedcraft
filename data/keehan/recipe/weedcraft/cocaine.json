@@ -1,18 +1,12 @@
 {
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
-        {
-            "item": "minecraft:repeating_command_block"
-        },
-        {
-            "item": "minecraft:sugar"
-        },
-        {
-            "item": "minecraft:charcoal"
-        }
+        "minecraft:repeating_command_block",
+        "minecraft:sugar",
+        "minecraft:charcoal"
     ],
     "result": {
-        "item": "minecraft:knowledge_book",
-        "count": 1
+        "count": 1,
+        "id": "minecraft:knowledge_book"
     }
 }

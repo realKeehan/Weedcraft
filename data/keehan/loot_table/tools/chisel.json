@@ -13,8 +13,8 @@
                             "color": "white",
                             "text": "Chisel"
                         },
-                        "minecraft:custom_model_data": 1280200,
-                        "minecraft:custom_data": "{Chisel:1b}"
+                        "minecraft:custom_data": "{Chisel:1b}",
+                        "minecraft:item_model": "weedcraft:chisel"
                     }
                 }
             ]

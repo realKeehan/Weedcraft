@@ -8,7 +8,7 @@
     scoreboard players set @s gn.shrooms 0
 
     # Disable death messages
-    gamerule showDeathMessages false
+    gamerule show_death_messages false
 
     # Kill the player
     kill @s
@@ -20,4 +20,4 @@
     tellraw @a [{"selector":"@s"},{"text":" overdosed"}]
 
     # Enable death messages
-    gamerule showDeathMessages true
+    gamerule show_death_messages true

@@ -36,7 +36,6 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "name": "keehan:drugs/coca_leaves",
                     "conditions": [
                         {
                             "condition": "minecraft:match_tool",
@@ -56,7 +55,8 @@
                                 "age": "2"
                             }
                         }
-                    ]
+                    ],
+                    "value": "keehan:drugs/coca_leaves"
                 }
             ]
         }

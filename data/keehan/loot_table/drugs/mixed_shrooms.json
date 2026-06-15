@@ -25,8 +25,8 @@
                                 "italic": false
                             }
                         ],
-                        "minecraft:custom_model_data": 1280203,
-                        "minecraft:custom_data": "{MixedShrooms:1b}"
+                        "minecraft:custom_data": "{MixedShrooms:1b}",
+                        "minecraft:item_model": "weedcraft:mixed_shrooms"
                     }
                 }
             ]

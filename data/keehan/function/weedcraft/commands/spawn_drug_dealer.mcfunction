@@ -1,11 +1,14 @@
 ## Spawn a wandering drug dealer at the executor's location
-    #> Utility command similar to the recipe give commands
+    #> Utility command: /function keehan:weedcraft/commands/spawn_drug_dealer
 
-    # Summon a fresh wandering trader with a temporary tag
-    summon minecraft:wandering_trader ~ ~ ~ {Tags:["weedcraft.spawn_candidate"]}
+    # Summon a wandering trader already tagged as the dealer.
+    # The tag must be present at spawn so the data-driven dealer trades
+    # (keehan:trade_set/dealer, gated by merchant_predicate on this tag) roll for it,
+    # and so the resource pack applies the dealer skin.
+    summon minecraft:wandering_trader ~ ~ ~ {Tags:["weedcraft.drug_dealer","weedcraft.spawn_candidate"],DespawnDelay:2147483647,PersistenceRequired:1b}
 
-    # Initialize the summoned trader as a drug dealer
+    # Finish configuring the freshly summoned dealer
     execute as @e[type=minecraft:wandering_trader,tag=weedcraft.spawn_candidate,limit=1,sort=nearest] run function keehan:weedcraft/generic/drug_dealer_init
 
-    # Remove the temporary tag now that initialization is complete
+    # Remove the temporary spawn tag
     execute as @e[type=minecraft:wandering_trader,tag=weedcraft.spawn_candidate] run tag @s remove weedcraft.spawn_candidate

@@ -1,0 +1,43 @@
+{
+    "wants": {
+        "id": "minecraft:golden_apple",
+        "count": 1,
+        "components": {
+            "minecraft:custom_name": {
+                "bold": true,
+                "italic": true,
+                "color": "green",
+                "text": "Blunt"
+            },
+            "minecraft:lore": [
+                {
+                    "text": "This sigarette seems a little bit strange.",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": "Try using it to find out what effects it has.",
+                    "color": "gray",
+                    "italic": false
+                }
+            ],
+            "minecraft:custom_data": "{Blunt:1b}",
+            "minecraft:item_model": "weedcraft:blunt"
+        }
+    },
+    "gives": {
+        "id": "minecraft:diamond",
+        "count": 2
+    },
+    "max_uses": 32,
+    "xp": 0,
+    "merchant_predicate": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{Tags:[\"weedcraft.drug_dealer\"]}"
+            }
+        }
+    ]
+}

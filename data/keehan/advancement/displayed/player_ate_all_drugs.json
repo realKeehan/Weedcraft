@@ -1,7 +1,6 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:player_head",
       "components": {
         "minecraft:profile": {
           "id": [
@@ -17,7 +16,8 @@
             }
           ]
         }
-      }
+      },
+      "id": "minecraft:player_head"
     },
     "title": "Now You've Done It",
     "description": "You went to the drug world and came back! I guess now you've done it",

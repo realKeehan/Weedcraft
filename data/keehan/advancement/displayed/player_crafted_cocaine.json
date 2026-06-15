@@ -1,26 +1,25 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:golden_apple",
-        "components": {
-          "minecraft:custom_model_data": 1280202
-        }
+  "display": {
+    "icon": {
+      "components": {
+        "minecraft:item_model": "weedcraft:cocaine"
       },
-      "title": "That's Not Snow?",
-      "description": "Craft some Cocaine!",
-      "frame": "challenge",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+      "id": "minecraft:golden_apple"
     },
-    "parent": "keehan:weedcraft",
-    "criteria": {
-      "tool_part_crafting": {
-        "trigger": "minecraft:recipe_unlocked",
-        "conditions": {
-          "recipe": "keehan:weedcraft/cocaine"
-        }
+    "title": "That's Not Snow?",
+    "description": "Craft some Cocaine!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "keehan:weedcraft",
+  "criteria": {
+    "tool_part_crafting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keehan:weedcraft/cocaine"
       }
     }
   }
-  
+}

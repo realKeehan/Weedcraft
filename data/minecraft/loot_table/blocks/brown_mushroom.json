@@ -10,7 +10,6 @@
                     "children": [
                         {
                             "type": "minecraft:loot_table",
-                            "name": "keehan:drugs/brown_shredded_shrooms",
                             "conditions": [
                                 {
                                     "condition": "minecraft:match_tool",
@@ -23,7 +22,8 @@
                                         }
                                     }
                                 }
-                            ]
+                            ],
+                            "value": "keehan:drugs/brown_shredded_shrooms"
                         },
                         {
                             "type": "minecraft:item",

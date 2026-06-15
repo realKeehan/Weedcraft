@@ -25,8 +25,8 @@
                                 "italic": false
                             }
                         ],
-                        "minecraft:custom_model_data": 1280200,
-                        "minecraft:custom_data": "{BrownShrooms:1b}"
+                        "minecraft:custom_data": "{BrownShrooms:1b}",
+                        "minecraft:item_model": "weedcraft:brown_shredded_shrooms"
                     }
                 }
             ]

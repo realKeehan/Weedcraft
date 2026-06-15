@@ -1,9 +1,9 @@
 {
   "criteria": {
     "tool_part_crafting": {
-      "trigger": "minecraft:recipe_unlocked",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe": "keehan:weedcraft/loppers"
+        "recipe_id": "keehan:weedcraft/loppers"
       }
     }
   },

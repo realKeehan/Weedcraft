@@ -13,8 +13,8 @@
                             "color": "white",
                             "text": "Loppers"
                         },
-                        "minecraft:custom_model_data": 1280200,
-                        "minecraft:custom_data": "{Loppers:1b}"
+                        "minecraft:custom_data": "{Loppers:1b}",
+                        "minecraft:item_model": "weedcraft:loppers"
                     }
                 }
             ]

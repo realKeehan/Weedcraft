@@ -1,25 +1,19 @@
 ## Configure a wandering trader to act as the Weedcraft drug dealer
-    #> Called by the "keehan:weedcraft/generic/drug_dealer_tick" function
+    #> Called by /function keehan:weedcraft/commands/spawn_drug_dealer
+    #>
+    #> Trades are data-driven (Minecraft 26.1+): data/keehan/villager_trade/* bundled by
+    #> data/keehan/trade_set/dealer.json, fed to wandering traders via
+    #> data/minecraft/tags/trade_set/wandering_trader/common.json. Each trade's
+    #> merchant_predicate requires the "weedcraft.drug_dealer" tag, so only this dealer offers them.
 
-    # Mark the trader so it is not processed twice
+    # Make sure the dealer skin tag is present (also set at summon)
     tag @s add weedcraft.drug_dealer
 
     # Keep the dealer in the world and brand the name
-    data modify entity @s PersistenceRequired set value 1b
+    data modify entity @s PersistenceRequired set value true
     data modify entity @s DespawnDelay set value 2147483647
-    data modify entity @s CustomName set value '{"text":"Wandering Dealer","color":"dark_green","bold":true}'
-    data modify entity @s CustomNameVisible set value 1b
+    data modify entity @s CustomName set value '{"text":"The Dealer","color":"dark_green","bold":true}'
+    data modify entity @s CustomNameVisible set value true
 
-    # Remove any existing trades before applying the custom dealer list
-    data remove entity @s Offers
-
-    # Define the dealer's custom trade list
-    data modify entity @s Offers set value {Level:1,Recipes:[{maxUses:3,uses:0,xp:0,specialPrice:0,priceMultiplier:0.0f,demand:0,rewardExp:0b,buy:{id:"minecraft:emerald",Count:8b},sell:{id:"minecraft:written_book",Count:1b,components:{"minecraft:written_book_content":{"title":{"raw":{"text":"Weedcraft Field Guide"}},"author":"The Green Hand","resolved":true,"generation":0,"pages":[{"raw":{"text":"","extra":[{"text":"Weedcraft Field Guide","bold":true,"color":"dark_green"},{"text":"\n\nThese notes were copied from a dealer's ledger. Treat them with care and don't let the guards see the cover.","color":"black"}]}},{"raw":{"text":"","extra":[{"text":"Blunt","bold":true,"color":"green"},{"text":"\nRecipe: Jigsaw + Paper + Magma Cream.","color":"black"},{"text":"\nEffects: A dizzy ride of levitation, blindness, nausea, and a heavy crash of resistance, hunger, slowness, slow falling, and mining fatigue.","color":"dark_gray"}]}},{"raw":{"text":"","extra":[{"text":"Cocaine","bold":true,"color":"white"},{"text":"\nRecipe: Repeating Command Block + Sugar + Charcoal.","color":"black"},{"text":"\nEffects: Blinding rush with speed, haste, jump boost, but the unluck and wither bite back hard.","color":"dark_gray"}]}},{"raw":{"text":"","extra":[{"text":"Meth","bold":true,"color":"aqua"},{"text":"\nRecipe: Command Block + Gunpowder + Bone Meal.","color":"black"},{"text":"\nEffects: Buzzing strength, night vision, and a glow that won't hide you, paired with nausea and poison tremors.","color":"dark_gray"}]}},{"raw":{"text":"","extra":[{"text":"Mixed Shrooms","bold":true,"color":"light_purple"},{"text":"\nRecipe: Chain Command Block + Structure Block + Nether Wart.","color":"black"},{"text":"\nEffects: Nausea blooms into luck, night sight, regeneration, saturation, and a strange weakness in the limbs.","color":"dark_gray"}]}},{"raw":{"text":"","extra":[{"text":"Journal","bold":true,"color":"dark_purple"},{"text":"\nTried every blend in one long night. The world rang like copper and my heart simply stopped. I woke up elsewhere, missing minutes I can't account for. Whatever really happens, I'm not writing it down here.","color":"black"}]}}]}}}}
-        ,{maxUses:16,uses:0,xp:0,specialPrice:0,priceMultiplier:0.05f,demand:0,rewardExp:0b,buy:{id:"minecraft:golden_apple",Count:1b,components:{"minecraft:custom_name":{"bold":true,"italic":true,"color":"green","text":"Blunt"},"minecraft:lore":[{"text":"This sigarette seems a little bit strange.","color":"gray","italic":false},{"text":"Try using it to find out what effects it has.","color":"gray","italic":false}],"minecraft:custom_model_data":1280201,"minecraft:custom_data":"{Blunt:1b}"}},sell:{id:"minecraft:emerald",Count:3b}}
-        ,{maxUses:16,uses:0,xp:0,specialPrice:0,priceMultiplier:0.05f,demand:0,rewardExp:0b,buy:{id:"minecraft:golden_apple",Count:1b,components:{"minecraft:custom_name":{"bold":true,"italic":true,"color":"white","text":"Cocaine"},"minecraft:lore":[{"text":"This is, indeed, a suspicious powder.","color":"gray","italic":false},{"text":"Try using it to find out what effects it has.","color":"gray","italic":false}],"minecraft:custom_model_data":1280202,"minecraft:custom_data":"{Cocaine:1b}"}},sell:{id:"minecraft:emerald",Count:5b}}
-        ,{maxUses:16,uses:0,xp:0,specialPrice:0,priceMultiplier:0.05f,demand:0,rewardExp:0b,buy:{id:"minecraft:golden_apple",Count:1b,components:{"minecraft:custom_name":{"bold":true,"italic":true,"color":"dark_purple","text":"Crystal Meth"},"minecraft:lore":[{"text":"These look like some interesting crystals.","color":"gray","italic":false},{"text":"Try eating it to find out what effects it has.","color":"gray","italic":false}],"minecraft:custom_model_data":1280200,"minecraft:custom_data":"{Meth:1b}"}},sell:{id:"minecraft:emerald",Count:4b}}
-        ,{maxUses:16,uses:0,xp:0,specialPrice:0,priceMultiplier:0.05f,demand:0,rewardExp:0b,buy:{id:"minecraft:golden_apple",Count:1b,components:{"minecraft:custom_name":{"bold":true,"italic":true,"color":"#5E2C13","text":"Mixed Shrooms"},"minecraft:lore":[{"text":"This is, indeed, a suspicious bag.","color":"gray","italic":false},{"text":"Try using them to find out what effects it has.","color":"gray","italic":false}],"minecraft:custom_model_data":1280203,"minecraft:custom_data":"{MixedShrooms:1b}"}},sell:{id:"minecraft:emerald",Count:6b}}
-    ]}
-
-    # Celebrate the new dealer with a green firework burst
-    summon minecraft:firework_rocket ~ ~1 ~ {Life:0,LifeTime:1,FireworksItem:{id:"minecraft:firework_rocket",Count:1b,components:{"minecraft:fireworks":{"flight_duration":0,"explosions":[{"shape":"small_ball","colors":[5635925],"has_trail":true,"has_twinkle":true}]}}}}
+    # Subtle smoke particle to mark the spawn
+    particle minecraft:smoke ~ ~1 ~ 0.3 0.5 0.3 0.02 20

@@ -10,7 +10,6 @@
                     "children": [
                         {
                             "type": "minecraft:loot_table",
-                            "name": "keehan:drugs/weed",
                             "conditions": [
                                 {
                                     "condition": "minecraft:match_tool",
@@ -23,7 +22,8 @@
                                         }
                                     }
                                 }
-                            ]
+                            ],
+                            "value": "keehan:drugs/weed"
                         },
                         {
                             "type": "minecraft:item",
@@ -95,7 +95,6 @@
                     "children": [
                         {
                             "type": "minecraft:loot_table",
-                            "name": "keehan:drugs/weed",
                             "conditions": [
                                 {
                                     "condition": "minecraft:match_tool",
@@ -108,7 +107,8 @@
                                         }
                                     }
                                 }
-                            ]
+                            ],
+                            "value": "keehan:drugs/weed"
                         },
                         {
                             "type": "minecraft:item",

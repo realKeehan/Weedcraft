@@ -9,10 +9,10 @@
     "description": "\"WeedCraft\" by Keehan",
     "background": "minecraft:textures/block/gray_concrete.png",
     "icon": {
-      "item": "minecraft:jigsaw",
       "components": {
-        "minecraft:custom_model_data": 1280200
-      }
+        "minecraft:item_model": "weedcraft:weed"
+      },
+      "id": "minecraft:jigsaw"
     },
     "show_toast": false,
     "title": "WeedCraft"
