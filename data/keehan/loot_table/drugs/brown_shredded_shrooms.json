@@ -6,28 +6,33 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:structure_block",
-                    "components": {
-                        "minecraft:custom_name": {
-                            "bold": false,
-                            "italic": false,
-                            "color": "white",
-                            "text": "Brown Shredded Shrooms"
-                        },
-                        "minecraft:lore": [
-                            {
-                                "text": "These look like some interesting shrooms.",
-                                "color": "gray",
-                                "italic": false
-                            },
-                            {
-                                "text": "I wonder what it can be used for.",
-                                "color": "gray",
-                                "italic": false
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": {
+                                    "bold": false,
+                                    "italic": false,
+                                    "color": "white",
+                                    "text": "Brown Shredded Shrooms"
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "text": "These look like some interesting shrooms.",
+                                        "color": "gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "I wonder what it can be used for.",
+                                        "color": "gray",
+                                        "italic": false
+                                    }
+                                ],
+                                "minecraft:custom_data": "{BrownShrooms:1b}",
+                                "minecraft:item_model": "weedcraft:brown_shredded_shrooms"
                             }
-                        ],
-                        "minecraft:custom_data": "{BrownShrooms:1b}",
-                        "minecraft:item_model": "weedcraft:brown_shredded_shrooms"
-                    }
+                        }
+                    ]
                 }
             ]
         }

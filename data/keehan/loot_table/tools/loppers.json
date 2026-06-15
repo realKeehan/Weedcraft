@@ -6,16 +6,21 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:shears",
-                    "components": {
-                        "minecraft:custom_name": {
-                            "bold": false,
-                            "italic": false,
-                            "color": "white",
-                            "text": "Loppers"
-                        },
-                        "minecraft:custom_data": "{Loppers:1b}",
-                        "minecraft:item_model": "weedcraft:loppers"
-                    }
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": {
+                                    "bold": false,
+                                    "italic": false,
+                                    "color": "white",
+                                    "text": "Loppers"
+                                },
+                                "minecraft:custom_data": "{Loppers:1b}",
+                                "minecraft:item_model": "weedcraft:loppers"
+                            }
+                        }
+                    ]
                 }
             ]
         }

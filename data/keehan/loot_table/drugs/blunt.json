@@ -6,28 +6,33 @@
                 {
                     "type": "minecraft:item",
                     "name": "minecraft:golden_apple",
-                    "components": {
-                        "minecraft:custom_name": {
-                            "bold": true,
-                            "italic": true,
-                            "color": "green",
-                            "text": "Blunt"
-                        },
-                        "minecraft:lore": [
-                            {
-                                "text": "This sigarette seems a little bit strange.",
-                                "color": "gray",
-                                "italic": false
-                            },
-                            {
-                                "text": "Try using it to find out what effects it has.",
-                                "color": "gray",
-                                "italic": false
+                    "functions": [
+                        {
+                            "function": "minecraft:set_components",
+                            "components": {
+                                "minecraft:custom_name": {
+                                    "bold": true,
+                                    "italic": true,
+                                    "color": "green",
+                                    "text": "Blunt"
+                                },
+                                "minecraft:lore": [
+                                    {
+                                        "text": "This sigarette seems a little bit strange.",
+                                        "color": "gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "Try using it to find out what effects it has.",
+                                        "color": "gray",
+                                        "italic": false
+                                    }
+                                ],
+                                "minecraft:custom_data": "{Blunt:1b}",
+                                "minecraft:item_model": "weedcraft:blunt"
                             }
-                        ],
-                        "minecraft:custom_data": "{Blunt:1b}",
-                        "minecraft:item_model": "weedcraft:blunt"
-                    }
+                        }
+                    ]
                 }
             ]
         }
