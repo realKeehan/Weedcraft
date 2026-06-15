@@ -1,0 +1,130 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "weedcraft:font/cover_banner.png",
+            "ascent": 40,
+            "height": 64,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "weedcraft:font/blunt_icon.png",
+            "ascent": 8,
+            "height": 16,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "weedcraft:font/cocaine_icon.png",
+            "ascent": 8,
+            "height": 16,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "weedcraft:font/crystal_meth_icon.png",
+            "ascent": 8,
+            "height": 16,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "weedcraft:font/mixed_shrooms_icon.png",
+            "ascent": 8,
+            "height": 16,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "weedcraft:font/dealer_sigil.png",
+            "ascent": 8,
+            "height": 16,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "weedcraft:font/recipe_blunt.png",
+            "ascent": 50,
+            "height": 56,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "weedcraft:font/recipe_cocaine.png",
+            "ascent": 50,
+            "height": 56,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "weedcraft:font/recipe_meth.png",
+            "ascent": 50,
+            "height": 56,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "weedcraft:font/recipe_shrooms.png",
+            "ascent": 50,
+            "height": 56,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "weedcraft:font/recipe_chisel.png",
+            "ascent": 50,
+            "height": 56,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "weedcraft:font/recipe_loppers.png",
+            "ascent": 50,
+            "height": 56,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "weedcraft:font/recipe_machete.png",
+            "ascent": 50,
+            "height": 56,
+            "chars": [
+                ""
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "weedcraft:font/recipe_budding.png",
+            "ascent": 50,
+            "height": 56,
+            "chars": [
+                ""
+            ]
+        }
+    ]
+}

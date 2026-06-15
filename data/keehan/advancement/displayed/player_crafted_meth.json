@@ -1,11 +1,11 @@
 {
   "display": {
-      "icon": {
-        "item": "minecraft:golden_apple",
-        "components": {
-          "minecraft:custom_model_data": 1280200
-        }
+    "icon": {
+      "components": {
+        "minecraft:item_model": "weedcraft:crystal_meth"
       },
+      "id": "minecraft:golden_apple"
+    },
     "title": "Breaking Bad",
     "description": "Craft some Crystal Meth!",
     "frame": "challenge",
@@ -16,9 +16,9 @@
   "parent": "keehan:weedcraft",
   "criteria": {
     "tool_part_crafting": {
-      "trigger": "minecraft:recipe_unlocked",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe": "keehan:weedcraft/meth"
+        "recipe_id": "keehan:weedcraft/meth"
       }
     }
   }

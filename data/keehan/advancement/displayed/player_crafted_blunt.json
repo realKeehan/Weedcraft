@@ -1,11 +1,11 @@
 {
   "display": {
-      "icon": {
-        "item": "minecraft:golden_apple",
-        "components": {
-          "minecraft:custom_model_data": 1280201
-        }
+    "icon": {
+      "components": {
+        "minecraft:item_model": "weedcraft:blunt"
       },
+      "id": "minecraft:golden_apple"
+    },
     "title": "Weedman?",
     "description": "Craft a Blunt!",
     "frame": "challenge",
@@ -16,9 +16,9 @@
   "parent": "keehan:weedcraft",
   "criteria": {
     "tool_part_crafting": {
-      "trigger": "minecraft:recipe_unlocked",
+      "trigger": "minecraft:recipe_crafted",
       "conditions": {
-        "recipe": "keehan:weedcraft/blunt"
+        "recipe_id": "keehan:weedcraft/blunt"
       }
     }
   }

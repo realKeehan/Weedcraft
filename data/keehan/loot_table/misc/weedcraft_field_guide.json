@@ -22,12 +22,121 @@
                                         "text": "",
                                         "extra": [
                                             {
+                                                "text": "",
+                                                "font": "weedcraft:guide",
+                                                "color": "white"
+                                            },
+                                            {
+                                                "text": "\n\n"
+                                            },
+                                            {
                                                 "text": "Weedcraft Field Guide",
                                                 "bold": true,
                                                 "color": "dark_green"
                                             },
                                             {
-                                                "text": "\n\nThese notes were copied from a dealer's ledger. Treat them with care and don't let the guards see the cover.",
+                                                "text": "\n\nPulled from a dealer's ledger. Handle with discretion.",
+                                                "color": "dark_gray",
+                                                "italic": true
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "raw": {
+                                        "text": "",
+                                        "extra": [
+                                            {
+                                                "text": "About",
+                                                "bold": true,
+                                                "color": "dark_green"
+                                            },
+                                            {
+                                                "text": "\nWeedcraft adds drug-themed farming, custom tools, and risky consumables.\n\n",
+                                                "color": "black"
+                                            },
+                                            {
+                                                "text": "Harvest special crops with custom tools, craft them into four drugs, and trade with ",
+                                                "color": "black"
+                                            },
+                                            {
+                                                "text": "The Dealer",
+                                                "color": "dark_green",
+                                                "bold": true
+                                            },
+                                            {
+                                                "text": " — a wandering trader an operator places in the world.",
+                                                "color": "black"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "raw": {
+                                        "text": "",
+                                        "extra": [
+                                            {
+                                                "text": "Tools & Harvest",
+                                                "bold": true,
+                                                "color": "dark_green"
+                                            },
+                                            {
+                                                "text": "\nChisel",
+                                                "bold": true,
+                                                "color": "black"
+                                            },
+                                            {
+                                                "text": ": mine amethyst clusters → Bottled Amethyst.\n",
+                                                "color": "black"
+                                            },
+                                            {
+                                                "text": "Loppers",
+                                                "bold": true,
+                                                "color": "black"
+                                            },
+                                            {
+                                                "text": ": clip large ferns → Weed; clip mushrooms → Shredded Shrooms.\n",
+                                                "color": "black"
+                                            },
+                                            {
+                                                "text": "Machete",
+                                                "bold": true,
+                                                "color": "black"
+                                            },
+                                            {
+                                                "text": ": slice grown cocoa → Coca Leaves (cocoa beans still drop).",
+                                                "color": "black"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "raw": {
+                                        "text": "",
+                                        "extra": [
+                                            {
+                                                "text": "",
+                                                "font": "weedcraft:guide",
+                                                "color": "white"
+                                            },
+                                            {
+                                                "text": "  "
+                                            },
+                                            {
+                                                "text": "Blunt",
+                                                "bold": true,
+                                                "color": "green"
+                                            },
+                                            {
+                                                "text": "\n"
+                                            },
+                                            {
+                                                "text": "",
+                                                "font": "weedcraft:guide",
+                                                "color": "white"
+                                            },
+                                            {
+                                                "text": "\nWeed + Paper + Magma Cream (shapeless).",
                                                 "color": "black"
                                             }
                                         ]
@@ -43,12 +152,54 @@
                                                 "color": "green"
                                             },
                                             {
-                                                "text": "\nRecipe: Jigsaw + Paper + Magma Cream.",
-                                                "color": "black"
+                                                "text": "\n\nCome-up:\n",
+                                                "bold": true,
+                                                "color": "dark_green"
                                             },
                                             {
-                                                "text": "\nEffects: A dizzy ride of levitation, blindness, nausea, and a heavy crash of resistance, hunger, slowness, slow falling, and mining fatigue.",
-                                                "color": "dark_gray"
+                                                "text": "Levitation, blindness, and nausea hit first.",
+                                                "color": "dark_green"
+                                            },
+                                            {
+                                                "text": "\n\nCrash:\n",
+                                                "bold": true,
+                                                "color": "dark_red"
+                                            },
+                                            {
+                                                "text": "Resistance, slowness, hunger, slow falling, mining fatigue.",
+                                                "color": "dark_red"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "raw": {
+                                        "text": "",
+                                        "extra": [
+                                            {
+                                                "text": "",
+                                                "font": "weedcraft:guide",
+                                                "color": "white"
+                                            },
+                                            {
+                                                "text": "  "
+                                            },
+                                            {
+                                                "text": "Cocaine",
+                                                "bold": true,
+                                                "color": "white"
+                                            },
+                                            {
+                                                "text": "\n"
+                                            },
+                                            {
+                                                "text": "",
+                                                "font": "weedcraft:guide",
+                                                "color": "white"
+                                            },
+                                            {
+                                                "text": "\nCoca Leaves + Sugar + Charcoal (shapeless).",
+                                                "color": "black"
                                             }
                                         ]
                                     }
@@ -63,12 +214,22 @@
                                                 "color": "white"
                                             },
                                             {
-                                                "text": "\nRecipe: Repeating Command Block + Sugar + Charcoal.",
-                                                "color": "black"
+                                                "text": "\n\nCome-up:\n",
+                                                "bold": true,
+                                                "color": "dark_green"
                                             },
                                             {
-                                                "text": "\nEffects: Blinding rush with speed, haste, jump boost, but the unluck and wither bite back hard.",
-                                                "color": "dark_gray"
+                                                "text": "Brief blindness, then Speed III, Haste III, jump boost.",
+                                                "color": "dark_green"
+                                            },
+                                            {
+                                                "text": "\n\nCrash:\n",
+                                                "bold": true,
+                                                "color": "dark_red"
+                                            },
+                                            {
+                                                "text": "Unluck and wither follow close behind.",
+                                                "color": "dark_red"
                                             }
                                         ]
                                     }
@@ -78,17 +239,96 @@
                                         "text": "",
                                         "extra": [
                                             {
-                                                "text": "Meth",
+                                                "text": "",
+                                                "font": "weedcraft:guide",
+                                                "color": "white"
+                                            },
+                                            {
+                                                "text": "  "
+                                            },
+                                            {
+                                                "text": "Crystal Meth",
                                                 "bold": true,
                                                 "color": "aqua"
                                             },
                                             {
-                                                "text": "\nRecipe: Command Block + Gunpowder + Bone Meal.",
-                                                "color": "black"
+                                                "text": "\n"
                                             },
                                             {
-                                                "text": "\nEffects: Buzzing strength, night vision, and a glow that won't hide you, paired with nausea and poison tremors.",
-                                                "color": "dark_gray"
+                                                "text": "",
+                                                "font": "weedcraft:guide",
+                                                "color": "white"
+                                            },
+                                            {
+                                                "text": "\nBottled Amethyst + Gunpowder + Bone Meal (shapeless).",
+                                                "color": "black"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "raw": {
+                                        "text": "",
+                                        "extra": [
+                                            {
+                                                "text": "Crystal Meth",
+                                                "bold": true,
+                                                "color": "aqua"
+                                            },
+                                            {
+                                                "text": "\n\nCome-up:\n",
+                                                "bold": true,
+                                                "color": "dark_green"
+                                            },
+                                            {
+                                                "text": "Strength and night vision surge in.",
+                                                "color": "dark_green"
+                                            },
+                                            {
+                                                "text": "\n\nCrash:\n",
+                                                "bold": true,
+                                                "color": "dark_red"
+                                            },
+                                            {
+                                                "text": "Glowing marks you; nausea and poison grind you down.",
+                                                "color": "dark_red"
+                                            },
+                                            {
+                                                "text": "\n\nAftermath: Absorption III lingers like a fading high.",
+                                                "color": "dark_gray",
+                                                "italic": true
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "raw": {
+                                        "text": "",
+                                        "extra": [
+                                            {
+                                                "text": "",
+                                                "font": "weedcraft:guide",
+                                                "color": "white"
+                                            },
+                                            {
+                                                "text": "  "
+                                            },
+                                            {
+                                                "text": "Mixed Shrooms",
+                                                "bold": true,
+                                                "color": "light_purple"
+                                            },
+                                            {
+                                                "text": "\n"
+                                            },
+                                            {
+                                                "text": "",
+                                                "font": "weedcraft:guide",
+                                                "color": "white"
+                                            },
+                                            {
+                                                "text": "\nRed + Brown Shredded Shrooms + Nether Wart (shapeless).",
+                                                "color": "black"
                                             }
                                         ]
                                     }
@@ -103,12 +343,22 @@
                                                 "color": "light_purple"
                                             },
                                             {
-                                                "text": "\nRecipe: Chain Command Block + Structure Block + Nether Wart.",
-                                                "color": "black"
+                                                "text": "\n\nCome-up:\n",
+                                                "bold": true,
+                                                "color": "dark_green"
                                             },
                                             {
-                                                "text": "\nEffects: Nausea blooms into luck, night sight, regeneration, saturation, and a strange weakness in the limbs.",
-                                                "color": "dark_gray"
+                                                "text": "Nausea first, then luck, night vision, regeneration, saturation.",
+                                                "color": "dark_green"
+                                            },
+                                            {
+                                                "text": "\n\nCrash:\n",
+                                                "bold": true,
+                                                "color": "dark_red"
+                                            },
+                                            {
+                                                "text": "Weakness lingers after the rest fades.",
+                                                "color": "dark_red"
                                             }
                                         ]
                                     }
@@ -118,19 +368,91 @@
                                         "text": "",
                                         "extra": [
                                             {
-                                                "text": "Journal",
+                                                "text": "Budding Amethyst",
+                                                "bold": true,
+                                                "color": "light_purple"
+                                            },
+                                            {
+                                                "text": "\n"
+                                            },
+                                            {
+                                                "text": "",
+                                                "font": "weedcraft:guide",
+                                                "color": "white"
+                                            },
+                                            {
+                                                "text": "\nSurround a Nether Star with Amethyst Blocks for a real budding amethyst — renewable crystals.",
+                                                "color": "black"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "raw": {
+                                        "text": "",
+                                        "extra": [
+                                            {
+                                                "text": "",
+                                                "font": "weedcraft:guide",
+                                                "color": "white"
+                                            },
+                                            {
+                                                "text": "\n\n"
+                                            },
+                                            {
+                                                "text": "The Dealer",
+                                                "bold": true,
+                                                "color": "dark_green"
+                                            },
+                                            {
+                                                "text": "\nHe doesn't ask where it came from.\n\n",
+                                                "color": "black"
+                                            },
+                                            {
+                                                "text": "He buys:\n",
+                                                "bold": true,
+                                                "color": "dark_aqua"
+                                            },
+                                            {
+                                                "text": "Blunt 2◈  Cocaine 2◈  Meth 3◈  Shrooms 5◈\n\n",
+                                                "color": "black"
+                                            },
+                                            {
+                                                "text": "He sells:\n",
+                                                "bold": true,
+                                                "color": "dark_aqua"
+                                            },
+                                            {
+                                                "text": "This Guide 3◈, Mystery Bag 2☘, Nether Wart 1☘, Blaze Powder 3☘",
+                                                "color": "black"
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "raw": {
+                                        "text": "",
+                                        "extra": [
+                                            {
+                                                "text": "Personal Account",
                                                 "bold": true,
                                                 "color": "dark_purple"
                                             },
                                             {
-                                                "text": "\nTried every blend in one long night. The world rang like copper and my heart simply stopped. I woke up elsewhere, missing minutes I can't account for. Whatever really happens, I'm not writing it down here.",
+                                                "text": "\nBlunt — manageable. Cocaine — I ran until I couldn't stop. Meth — I glowed in the dark for an hour. Shrooms — I lost track of time.\n\n",
                                                 "color": "black"
+                                            },
+                                            {
+                                                "text": "Using all four at once is lethal. Don't. I did.\n\n- Author redacted",
+                                                "color": "dark_red",
+                                                "italic": true
                                             }
                                         ]
                                     }
                                 }
                             ]
-                        }
+                        },
+                        "minecraft:item_model": "weedcraft:field_guide"
                     }
                 }
             ]

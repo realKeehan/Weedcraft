@@ -6,14 +6,10 @@
         " S "
     ],
     "key": {
-        "X": {
-            "item": "minecraft:iron_ingot"
-        },
-        "S": {
-            "item": "minecraft:stick"
-        }
+        "X": "minecraft:iron_ingot",
+        "S": "minecraft:stick"
     },
     "result": {
-        "item": "minecraft:knowledge_book"
+        "id": "minecraft:knowledge_book"
     }
 }

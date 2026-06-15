@@ -1,7 +1,6 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:player_head",
       "components": {
         "minecraft:profile": {
           "id": [
@@ -17,7 +16,8 @@
             }
           ]
         }
-      }
+      },
+      "id": "minecraft:player_head"
     },
     "title": "Kingpin",
     "description": "Craft all the drugs and become a true Drug Lord!",

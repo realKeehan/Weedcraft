@@ -1,26 +1,25 @@
 {
-    "display": {
-      "icon": {
-        "item": "minecraft:golden_apple",
-        "components": {
-          "minecraft:custom_model_data": 1280203
-        }
+  "display": {
+    "icon": {
+      "components": {
+        "minecraft:item_model": "weedcraft:mixed_shrooms"
       },
-      "title": "The Spiritualist",
-      "description": "Craft some Mixed Shrooms!",
-      "frame": "challenge",
-      "show_toast": true,
-      "announce_to_chat": true,
-      "hidden": false
+      "id": "minecraft:golden_apple"
     },
-    "parent": "keehan:weedcraft",
-    "criteria": {
-      "tool_part_crafting": {
-        "trigger": "minecraft:recipe_unlocked",
-        "conditions": {
-          "recipe": "keehan:weedcraft/mixed_shrooms"
-        }
+    "title": "The Spiritualist",
+    "description": "Craft some Mixed Shrooms!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "keehan:weedcraft",
+  "criteria": {
+    "tool_part_crafting": {
+      "trigger": "minecraft:recipe_crafted",
+      "conditions": {
+        "recipe_id": "keehan:weedcraft/mixed_shrooms"
       }
     }
   }
-  
+}
