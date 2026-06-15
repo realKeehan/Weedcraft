@@ -1,0 +1,43 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chain_command_block",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "bold": false,
+                                "italic": false,
+                                "color": "white",
+                                "text": "Red Shredded Shrooms"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "These look like some interesting shrooms.",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "I wonder what it can be used for.",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{RedShrooms:1b, CustomModelData:1280200}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

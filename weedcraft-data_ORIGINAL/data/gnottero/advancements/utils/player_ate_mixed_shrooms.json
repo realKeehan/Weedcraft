@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:golden_apple"],
+          "nbt": "{MixedShrooms:1b}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "gnottero:weedcraft/drugs/mixed_shrooms_effects"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "tool_part_crafting": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "gnottero:weedcraft/mixed_shrooms"
+      }
+    }
+  },
+  "rewards": {
+    "function": "gnottero:weedcraft/recipes/give_mixed_shrooms"
+  }
+}

@@ -12,7 +12,7 @@
     # Keep the dealer in the world and brand the name
     data modify entity @s PersistenceRequired set value true
     data modify entity @s DespawnDelay set value 2147483647
-    data modify entity @s CustomName set value '{"text":"The Dealer","color":"dark_green","bold":true}'
+    data modify entity @s CustomName set value {"text":"The Dealer","color":"dark_green","bold":true}
     data modify entity @s CustomNameVisible set value true
 
     # Subtle smoke particle to mark the spawn

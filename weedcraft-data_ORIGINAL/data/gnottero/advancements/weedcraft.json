@@ -7,12 +7,10 @@
   "display": {
     "announce_to_chat": false,
     "description": "\"WeedCraft\" by Keehan",
-    "background": "minecraft:block/gray_concrete",
+    "background": "minecraft:textures/block/gray_concrete.png",
     "icon": {
-      "components": {
-        "minecraft:item_model": "weedcraft:weed"
-      },
-      "id": "minecraft:jigsaw"
+      "item": "minecraft:jigsaw",
+      "nbt": "{CustomModelData:1280200}"
     },
     "show_toast": false,
     "title": "WeedCraft"

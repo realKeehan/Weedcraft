@@ -1,0 +1,43 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_apple",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "name": {
+                                "bold": true,
+                                "italic": true,
+                                "color": "dark_purple",
+                                "text": "Crystal Meth"
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_lore",
+                            "lore": [
+                                {
+                                    "text": "These look like some interesting crystals.",
+                                    "color": "gray",
+                                    "italic": false
+                                },
+                                {
+                                    "text": "Try eating it to find out what effects it has.",
+                                    "color": "gray",
+                                    "italic": false
+                                }
+                            ]
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{Meth:1b, CustomModelData:1280200}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
