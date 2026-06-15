@@ -6,7 +6,29 @@
         "minecraft:nether_wart"
     ],
     "result": {
+        "id": "minecraft:golden_apple",
         "count": 1,
-        "id": "minecraft:knowledge_book"
+        "components": {
+            "minecraft:custom_name": {
+                "bold": true,
+                "italic": true,
+                "color": "#5E2C13",
+                "text": "Mixed Shrooms"
+            },
+            "minecraft:lore": [
+                {
+                    "text": "This is, indeed, a suspicious bag.",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": "Try using them to find out what effects it has.",
+                    "color": "gray",
+                    "italic": false
+                }
+            ],
+            "minecraft:custom_data": "{MixedShrooms:1b}",
+            "minecraft:item_model": "weedcraft:mixed_shrooms"
+        }
     }
 }

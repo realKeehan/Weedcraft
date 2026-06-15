@@ -1,10 +1,10 @@
 ## Configure a wandering trader to act as the Weedcraft drug dealer
     #> Called by /function keehan:weedcraft/commands/spawn_drug_dealer
     #>
-    #> Trades are data-driven (Minecraft 26.1+): data/keehan/villager_trade/* bundled by
-    #> data/keehan/trade_set/dealer.json, fed to wandering traders via
-    #> data/minecraft/tags/trade_set/wandering_trader/common.json. Each trade's
-    #> merchant_predicate requires the "weedcraft.drug_dealer" tag, so only this dealer offers them.
+    #> Trades are data-driven (Minecraft 26.1+): data/keehan/villager_trade/* are added to the
+    #> wandering-trader pool via data/minecraft/tags/villager_trade/wandering_trader/buying.json.
+    #> Each trade's merchant_predicate requires the "weedcraft.drug_dealer" tag (set at summon),
+    #> so only this dealer should offer them.
 
     # Make sure the dealer skin tag is present (also set at summon)
     tag @s add weedcraft.drug_dealer

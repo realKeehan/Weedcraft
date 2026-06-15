@@ -10,6 +10,17 @@
         "S": "minecraft:stick"
     },
     "result": {
-        "id": "minecraft:knowledge_book"
+        "id": "minecraft:iron_pickaxe",
+        "count": 1,
+        "components": {
+            "minecraft:custom_name": {
+                "bold": false,
+                "italic": false,
+                "color": "white",
+                "text": "Chisel"
+            },
+            "minecraft:custom_data": "{Chisel:1b}",
+            "minecraft:item_model": "weedcraft:chisel"
+        }
     }
 }

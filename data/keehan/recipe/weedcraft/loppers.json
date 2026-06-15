@@ -10,6 +10,17 @@
         "S": "minecraft:stick"
     },
     "result": {
-        "id": "minecraft:knowledge_book"
+        "id": "minecraft:shears",
+        "count": 1,
+        "components": {
+            "minecraft:custom_name": {
+                "bold": false,
+                "italic": false,
+                "color": "white",
+                "text": "Loppers"
+            },
+            "minecraft:custom_data": "{Loppers:1b}",
+            "minecraft:item_model": "weedcraft:loppers"
+        }
     }
 }
