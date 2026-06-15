@@ -9,9 +9,7 @@
         "components": {
             "minecraft:written_book_content": {
                 "title": {
-                    "raw": {
-                        "text": "Weedcraft Field Guide"
-                    }
+                    "raw": "Weedcraft Field Guide"
                 },
                 "author": "The Green Hand",
                 "resolved": true,
