@@ -20,12 +20,12 @@
                             "text": "",
                             "extra": [
                                 {
-                                    "text": "",
+                                    "text": "",
                                     "font": "weedcraft:guide",
                                     "color": "white"
                                 },
                                 {
-                                    "text": "\n\n"
+                                    "text": "\n\n\n\n"
                                 },
                                 {
                                     "text": "Weedcraft Field Guide",
@@ -84,7 +84,7 @@
                                     "color": "black"
                                 },
                                 {
-                                    "text": ": mine amethyst clusters → Bottled Amethyst.\n",
+                                    "text": ": mine amethyst clusters - Bottled Amethyst.\n",
                                     "color": "black"
                                 },
                                 {
@@ -93,7 +93,7 @@
                                     "color": "black"
                                 },
                                 {
-                                    "text": ": clip large ferns → Weed; mushrooms → Shredded Shrooms.\n",
+                                    "text": ": clip large ferns - Weed; mushrooms - Shredded Shrooms.\n",
                                     "color": "black"
                                 },
                                 {
@@ -102,7 +102,7 @@
                                     "color": "black"
                                 },
                                 {
-                                    "text": ": slice grown cocoa → Coca Leaves (beans still drop).",
+                                    "text": ": slice grown cocoa - Coca Leaves (beans still drop).",
                                     "color": "black"
                                 }
                             ]
@@ -115,13 +115,13 @@
                                 {
                                     "text": "Blunt Recipe",
                                     "bold": true,
-                                    "color": "green"
+                                    "color": "dark_green"
                                 },
                                 {
                                     "text": "\n\n\n\n\n\n\n"
                                 },
                                 {
-                                    "text": "",
+                                    "text": "",
                                     "font": "weedcraft:guide",
                                     "color": "white"
                                 }
@@ -133,7 +133,7 @@
                             "text": "",
                             "extra": [
                                 {
-                                    "text": "",
+                                    "text": "",
                                     "font": "weedcraft:guide",
                                     "color": "white"
                                 },
@@ -143,7 +143,7 @@
                                 {
                                     "text": "Blunt",
                                     "bold": true,
-                                    "color": "green"
+                                    "color": "dark_green"
                                 },
                                 {
                                     "text": "\nWeed + Paper + Magma Cream (shapeless).",
@@ -177,13 +177,13 @@
                                 {
                                     "text": "Cocaine Recipe",
                                     "bold": true,
-                                    "color": "white"
+                                    "color": "dark_gray"
                                 },
                                 {
                                     "text": "\n\n\n\n\n\n\n"
                                 },
                                 {
-                                    "text": "",
+                                    "text": "",
                                     "font": "weedcraft:guide",
                                     "color": "white"
                                 }
@@ -195,7 +195,7 @@
                             "text": "",
                             "extra": [
                                 {
-                                    "text": "",
+                                    "text": "",
                                     "font": "weedcraft:guide",
                                     "color": "white"
                                 },
@@ -205,7 +205,7 @@
                                 {
                                     "text": "Cocaine",
                                     "bold": true,
-                                    "color": "white"
+                                    "color": "dark_gray"
                                 },
                                 {
                                     "text": "\nCoca Leaves + Sugar + Charcoal (shapeless).",
@@ -239,13 +239,13 @@
                                 {
                                     "text": "Crystal Meth Recipe",
                                     "bold": true,
-                                    "color": "aqua"
+                                    "color": "dark_aqua"
                                 },
                                 {
                                     "text": "\n\n\n\n\n\n\n"
                                 },
                                 {
-                                    "text": "",
+                                    "text": "",
                                     "font": "weedcraft:guide",
                                     "color": "white"
                                 }
@@ -257,7 +257,7 @@
                             "text": "",
                             "extra": [
                                 {
-                                    "text": "",
+                                    "text": "",
                                     "font": "weedcraft:guide",
                                     "color": "white"
                                 },
@@ -267,7 +267,7 @@
                                 {
                                     "text": "Crystal Meth",
                                     "bold": true,
-                                    "color": "aqua"
+                                    "color": "dark_aqua"
                                 },
                                 {
                                     "text": "\nBottled Amethyst + Gunpowder + Bone Meal (shapeless).",
@@ -306,13 +306,13 @@
                                 {
                                     "text": "Mixed Shrooms Recipe",
                                     "bold": true,
-                                    "color": "light_purple"
+                                    "color": "dark_purple"
                                 },
                                 {
                                     "text": "\n\n\n\n\n\n\n"
                                 },
                                 {
-                                    "text": "",
+                                    "text": "",
                                     "font": "weedcraft:guide",
                                     "color": "white"
                                 }
@@ -324,7 +324,7 @@
                             "text": "",
                             "extra": [
                                 {
-                                    "text": "",
+                                    "text": "",
                                     "font": "weedcraft:guide",
                                     "color": "white"
                                 },
@@ -334,7 +334,7 @@
                                 {
                                     "text": "Mixed Shrooms",
                                     "bold": true,
-                                    "color": "light_purple"
+                                    "color": "dark_purple"
                                 },
                                 {
                                     "text": "\nRed + Brown Shredded Shrooms + Nether Wart (shapeless).",
@@ -368,13 +368,13 @@
                                 {
                                     "text": "Budding Amethyst Recipe",
                                     "bold": true,
-                                    "color": "light_purple"
+                                    "color": "dark_purple"
                                 },
                                 {
                                     "text": "\n\n\n\n\n\n\n"
                                 },
                                 {
-                                    "text": "",
+                                    "text": "",
                                     "font": "weedcraft:guide",
                                     "color": "white"
                                 }
@@ -388,10 +388,10 @@
                                 {
                                     "text": "Budding Amethyst",
                                     "bold": true,
-                                    "color": "light_purple"
+                                    "color": "dark_purple"
                                 },
                                 {
-                                    "text": "\nSurround a Nether Star with Amethyst Blocks for a real budding amethyst — renewable crystals.",
+                                    "text": "\nSurround a Nether Star with Amethyst Blocks for a real budding amethyst - renewable crystals.",
                                     "color": "black"
                                 }
                             ]
@@ -402,7 +402,7 @@
                             "text": "",
                             "extra": [
                                 {
-                                    "text": "",
+                                    "text": "",
                                     "font": "weedcraft:guide",
                                     "color": "white"
                                 },
@@ -424,7 +424,7 @@
                                     "color": "dark_aqua"
                                 },
                                 {
-                                    "text": "Blunt 2◈  Cocaine 2◈  Meth 3◈  Shrooms 5◈\n\n",
+                                    "text": "Blunt 2, Cocaine 2, Meth 3, Shrooms 5 diamonds.\n\n",
                                     "color": "black"
                                 },
                                 {
@@ -433,7 +433,7 @@
                                     "color": "dark_aqua"
                                 },
                                 {
-                                    "text": "This Guide 3◈, Mystery Bag 2☘, Nether Wart 1☘, Blaze Powder 3☘",
+                                    "text": "This Guide (3 diamonds), Mystery Bag, Nether Wart, Blaze Powder.",
                                     "color": "black"
                                 }
                             ]
@@ -449,7 +449,7 @@
                                     "color": "dark_purple"
                                 },
                                 {
-                                    "text": "\nBlunt — manageable. Cocaine — I ran until I couldn't stop. Meth — I glowed in the dark for an hour. Shrooms — I lost track of time.\n\n",
+                                    "text": "\nBlunt - manageable. Cocaine - I ran until I couldn't stop. Meth - I glowed in the dark for an hour. Shrooms - I lost track of time.\n\n",
                                     "color": "black"
                                 },
                                 {
