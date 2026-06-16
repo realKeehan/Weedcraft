@@ -9,4 +9,4 @@
     scoreboard objectives add gn.cocaine dummy
 
     # Send load message
-    tellraw @a {"text": "#> Important Tweaks loaded successfully", "color": "gray"}
+    tellraw @a ["",{"text":"[","color":"dark_gray"},{"text":"Weedcraft","color":"green","bold":true},{"text":"]","color":"dark_gray"},{"text":" datapack loaded successfully. Stay safe out there.","color":"gray"}]
