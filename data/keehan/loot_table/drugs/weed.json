@@ -17,7 +17,19 @@
                                     "text": "Weed"
                                 },
                                 "minecraft:custom_data": "{Weed:1b}",
-                                "minecraft:item_model": "weedcraft:weed"
+                                "minecraft:item_model": "weedcraft:weed",
+                                "minecraft:lore": [
+                                    {
+                                        "text": "This is some seriously sticky grass.",
+                                        "color": "gray",
+                                        "italic": false
+                                    },
+                                    {
+                                        "text": "I wonder what it can be used for.",
+                                        "color": "gray",
+                                        "italic": false
+                                    }
+                                ]
                             }
                         }
                     ]
