@@ -1,7 +1,7 @@
 {
     "wants": {
         "id": "minecraft:golden_apple",
-        "count": 6,
+        "count": 12,
         "components": {
             "minecraft:custom_name": {
                 "bold": true,
@@ -29,7 +29,7 @@
         "id": "minecraft:diamond",
         "count": 3
     },
-    "max_uses": 32,
+    "max_uses": 16,
     "xp": 0,
     "merchant_predicate": [
         {

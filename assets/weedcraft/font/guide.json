@@ -3,8 +3,8 @@
         {
             "type": "bitmap",
             "file": "weedcraft:font/cover_banner.png",
-            "ascent": 40,
-            "height": 64,
+            "ascent": 32,
+            "height": 52,
             "chars": [
                 ""
             ]
@@ -12,7 +12,7 @@
         {
             "type": "bitmap",
             "file": "weedcraft:font/blunt_icon.png",
-            "ascent": 8,
+            "ascent": 13,
             "height": 16,
             "chars": [
                 ""
@@ -21,7 +21,7 @@
         {
             "type": "bitmap",
             "file": "weedcraft:font/cocaine_icon.png",
-            "ascent": 8,
+            "ascent": 13,
             "height": 16,
             "chars": [
                 ""
@@ -30,7 +30,7 @@
         {
             "type": "bitmap",
             "file": "weedcraft:font/crystal_meth_icon.png",
-            "ascent": 8,
+            "ascent": 13,
             "height": 16,
             "chars": [
                 ""
@@ -39,7 +39,7 @@
         {
             "type": "bitmap",
             "file": "weedcraft:font/mixed_shrooms_icon.png",
-            "ascent": 8,
+            "ascent": 13,
             "height": 16,
             "chars": [
                 ""
@@ -48,7 +48,7 @@
         {
             "type": "bitmap",
             "file": "weedcraft:font/dealer_sigil.png",
-            "ascent": 8,
+            "ascent": 13,
             "height": 16,
             "chars": [
                 ""

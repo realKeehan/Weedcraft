@@ -23,11 +23,6 @@
                                                 "text": "",
                                                 "extra": [
                                                     {
-                                                        "text": "",
-                                                        "font": "weedcraft:guide",
-                                                        "color": "white"
-                                                    },
-                                                    {
                                                         "text": "\n\n\n\n"
                                                     },
                                                     {
@@ -116,7 +111,7 @@
                                                 "text": "",
                                                 "extra": [
                                                     {
-                                                        "text": "Blunt Recipe",
+                                                        "text": "Chisel Recipe",
                                                         "bold": true,
                                                         "color": "dark_green"
                                                     },
@@ -124,7 +119,7 @@
                                                         "text": "\n\n\n\n\n\n\n"
                                                     },
                                                     {
-                                                        "text": "",
+                                                        "text": "",
                                                         "font": "weedcraft:guide",
                                                         "color": "white"
                                                     }
@@ -136,7 +131,67 @@
                                                 "text": "",
                                                 "extra": [
                                                     {
-                                                        "text": "",
+                                                        "text": "Loppers Recipe",
+                                                        "bold": true,
+                                                        "color": "dark_green"
+                                                    },
+                                                    {
+                                                        "text": "\n\n\n\n\n\n\n"
+                                                    },
+                                                    {
+                                                        "text": "",
+                                                        "font": "weedcraft:guide",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "raw": {
+                                                "text": "",
+                                                "extra": [
+                                                    {
+                                                        "text": "Machete Recipe",
+                                                        "bold": true,
+                                                        "color": "dark_green"
+                                                    },
+                                                    {
+                                                        "text": "\n\n\n\n\n\n\n"
+                                                    },
+                                                    {
+                                                        "text": "",
+                                                        "font": "weedcraft:guide",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "raw": {
+                                                "text": "",
+                                                "extra": [
+                                                    {
+                                                        "text": "Blunt Recipe",
+                                                        "bold": true,
+                                                        "color": "dark_green"
+                                                    },
+                                                    {
+                                                        "text": "\n\n\n\n\n\n\n"
+                                                    },
+                                                    {
+                                                        "text": "",
+                                                        "font": "weedcraft:guide",
+                                                        "color": "white"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        {
+                                            "raw": {
+                                                "text": "",
+                                                "extra": [
+                                                    {
+                                                        "text": "",
                                                         "font": "weedcraft:guide",
                                                         "color": "white"
                                                     },
@@ -186,7 +241,7 @@
                                                         "text": "\n\n\n\n\n\n\n"
                                                     },
                                                     {
-                                                        "text": "",
+                                                        "text": "",
                                                         "font": "weedcraft:guide",
                                                         "color": "white"
                                                     }
@@ -198,7 +253,7 @@
                                                 "text": "",
                                                 "extra": [
                                                     {
-                                                        "text": "",
+                                                        "text": "",
                                                         "font": "weedcraft:guide",
                                                         "color": "white"
                                                     },
@@ -248,7 +303,7 @@
                                                         "text": "\n\n\n\n\n\n\n"
                                                     },
                                                     {
-                                                        "text": "",
+                                                        "text": "",
                                                         "font": "weedcraft:guide",
                                                         "color": "white"
                                                     }
@@ -260,7 +315,7 @@
                                                 "text": "",
                                                 "extra": [
                                                     {
-                                                        "text": "",
+                                                        "text": "",
                                                         "font": "weedcraft:guide",
                                                         "color": "white"
                                                     },
@@ -315,7 +370,7 @@
                                                         "text": "\n\n\n\n\n\n\n"
                                                     },
                                                     {
-                                                        "text": "",
+                                                        "text": "",
                                                         "font": "weedcraft:guide",
                                                         "color": "white"
                                                     }
@@ -327,7 +382,7 @@
                                                 "text": "",
                                                 "extra": [
                                                     {
-                                                        "text": "",
+                                                        "text": "",
                                                         "font": "weedcraft:guide",
                                                         "color": "white"
                                                     },
@@ -377,7 +432,7 @@
                                                         "text": "\n\n\n\n\n\n\n"
                                                     },
                                                     {
-                                                        "text": "",
+                                                        "text": "",
                                                         "font": "weedcraft:guide",
                                                         "color": "white"
                                                     }
@@ -405,7 +460,7 @@
                                                 "text": "",
                                                 "extra": [
                                                     {
-                                                        "text": "",
+                                                        "text": "",
                                                         "font": "weedcraft:guide",
                                                         "color": "white"
                                                     },
@@ -427,7 +482,7 @@
                                                         "color": "dark_aqua"
                                                     },
                                                     {
-                                                        "text": "Blunt 2, Cocaine 2, Meth 3, Shrooms 5 diamonds.\n\n",
+                                                        "text": "Blunt 2 diamonds for 16, Cocaine 2 for 16, Meth 3 for 12, Shrooms 5 for 8.\n\n",
                                                         "color": "black"
                                                     },
                                                     {
@@ -436,7 +491,7 @@
                                                         "color": "dark_aqua"
                                                     },
                                                     {
-                                                        "text": "This Guide (3 diamonds), Mystery Bag, Nether Wart, Blaze Powder.",
+                                                        "text": "This Guide (3 diamonds), Mystery Bag, Nether Wart, Tool Kit.",
                                                         "color": "black"
                                                     }
                                                 ]

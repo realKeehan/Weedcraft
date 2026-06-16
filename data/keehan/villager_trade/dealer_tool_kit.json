@@ -1,0 +1,85 @@
+{
+    "wants": {
+        "id": "minecraft:emerald",
+        "count": 5
+    },
+    "gives": {
+        "id": "minecraft:bundle",
+        "count": 1,
+        "components": {
+            "minecraft:custom_name": {
+                "text": "Tool Kit",
+                "color": "dark_green",
+                "bold": true,
+                "italic": false
+            },
+            "minecraft:lore": [
+                {
+                    "text": "Chisel, Loppers & Pruning Machete.",
+                    "color": "gray",
+                    "italic": false
+                },
+                {
+                    "text": "Everything you need to start harvesting.",
+                    "color": "gray",
+                    "italic": false
+                }
+            ],
+            "minecraft:bundle_contents": [
+                {
+                    "id": "minecraft:iron_pickaxe",
+                    "count": 1,
+                    "components": {
+                        "minecraft:custom_name": {
+                            "bold": false,
+                            "italic": false,
+                            "color": "white",
+                            "text": "Chisel"
+                        },
+                        "minecraft:custom_data": "{Chisel:1b}",
+                        "minecraft:item_model": "weedcraft:chisel"
+                    }
+                },
+                {
+                    "id": "minecraft:shears",
+                    "count": 1,
+                    "components": {
+                        "minecraft:custom_name": {
+                            "bold": false,
+                            "italic": false,
+                            "color": "white",
+                            "text": "Loppers"
+                        },
+                        "minecraft:custom_data": "{Loppers:1b}",
+                        "minecraft:item_model": "weedcraft:loppers"
+                    }
+                },
+                {
+                    "id": "minecraft:iron_sword",
+                    "count": 1,
+                    "components": {
+                        "minecraft:custom_name": {
+                            "bold": false,
+                            "italic": false,
+                            "color": "white",
+                            "text": "Pruning Machete"
+                        },
+                        "minecraft:custom_data": "{Machete:1b}",
+                        "minecraft:item_model": "weedcraft:machete"
+                    }
+                }
+            ]
+        }
+    },
+    "max_uses": 16,
+    "xp": 0,
+    "merchant_predicate": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": "{Tags:[\"weedcraft.drug_dealer\"]}"
+            }
+        }
+    ]
+}

@@ -99,7 +99,7 @@ crafting grid normally.
 The **Field Guide** is a custom-textured written book (item model `weedcraft:field_guide` via the
 `minecraft:item_model` component) that explains the pack, embeds the crafting-grid images via the
 `weedcraft:guide` bitmap font, and lists each drug's effects. It is **sold by The Dealer** (3 diamonds). The Dealer also **buys**
-your drugs (Blunt 2◈, Cocaine 2◈, Meth 3◈, Mixed Shrooms 5◈) and sells a few supply items.
+your drugs (16 Blunts for 2◈, 16 Cocaine for 2◈, 12 Meth for 3◈, 8 Mixed Shrooms for 5◈) and sells a few supply items.
 
 The Dealer is a wandering trader you place manually:
 
