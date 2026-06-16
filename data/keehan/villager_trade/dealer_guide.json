@@ -54,7 +54,7 @@
                                     "color": "black"
                                 },
                                 {
-                                    "text": "Harvest special crops with custom tools, craft them into four drugs, and trade with ",
+                                    "text": "Harvest special crops with custom tools, craft four drugs, and trade with ",
                                     "color": "black"
                                 },
                                 {
@@ -63,7 +63,7 @@
                                     "bold": true
                                 },
                                 {
-                                    "text": " — a wandering trader an operator places in the world.",
+                                    "text": " — a wandering trader placed in the world.",
                                     "color": "black"
                                 }
                             ]
@@ -93,7 +93,7 @@
                                     "color": "black"
                                 },
                                 {
-                                    "text": ": clip large ferns → Weed; clip mushrooms → Shredded Shrooms.\n",
+                                    "text": ": clip large ferns → Weed; mushrooms → Shredded Shrooms.\n",
                                     "color": "black"
                                 },
                                 {
@@ -102,8 +102,28 @@
                                     "color": "black"
                                 },
                                 {
-                                    "text": ": slice grown cocoa → Coca Leaves (cocoa beans still drop).",
+                                    "text": ": slice grown cocoa → Coca Leaves (beans still drop).",
                                     "color": "black"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "raw": {
+                            "text": "",
+                            "extra": [
+                                {
+                                    "text": "Blunt Recipe",
+                                    "bold": true,
+                                    "color": "green"
+                                },
+                                {
+                                    "text": "\n\n\n\n\n\n\n"
+                                },
+                                {
+                                    "text": "",
+                                    "font": "weedcraft:guide",
+                                    "color": "white"
                                 }
                             ]
                         }
@@ -126,28 +146,8 @@
                                     "color": "green"
                                 },
                                 {
-                                    "text": "\n"
-                                },
-                                {
-                                    "text": "",
-                                    "font": "weedcraft:guide",
-                                    "color": "white"
-                                },
-                                {
                                     "text": "\nWeed + Paper + Magma Cream (shapeless).",
                                     "color": "black"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "raw": {
-                            "text": "",
-                            "extra": [
-                                {
-                                    "text": "Blunt",
-                                    "bold": true,
-                                    "color": "green"
                                 },
                                 {
                                     "text": "\n\nCome-up:\n",
@@ -175,6 +175,26 @@
                             "text": "",
                             "extra": [
                                 {
+                                    "text": "Cocaine Recipe",
+                                    "bold": true,
+                                    "color": "white"
+                                },
+                                {
+                                    "text": "\n\n\n\n\n\n\n"
+                                },
+                                {
+                                    "text": "",
+                                    "font": "weedcraft:guide",
+                                    "color": "white"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "raw": {
+                            "text": "",
+                            "extra": [
+                                {
                                     "text": "",
                                     "font": "weedcraft:guide",
                                     "color": "white"
@@ -188,28 +208,8 @@
                                     "color": "white"
                                 },
                                 {
-                                    "text": "\n"
-                                },
-                                {
-                                    "text": "",
-                                    "font": "weedcraft:guide",
-                                    "color": "white"
-                                },
-                                {
                                     "text": "\nCoca Leaves + Sugar + Charcoal (shapeless).",
                                     "color": "black"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "raw": {
-                            "text": "",
-                            "extra": [
-                                {
-                                    "text": "Cocaine",
-                                    "bold": true,
-                                    "color": "white"
                                 },
                                 {
                                     "text": "\n\nCome-up:\n",
@@ -237,6 +237,26 @@
                             "text": "",
                             "extra": [
                                 {
+                                    "text": "Crystal Meth Recipe",
+                                    "bold": true,
+                                    "color": "aqua"
+                                },
+                                {
+                                    "text": "\n\n\n\n\n\n\n"
+                                },
+                                {
+                                    "text": "",
+                                    "font": "weedcraft:guide",
+                                    "color": "white"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "raw": {
+                            "text": "",
+                            "extra": [
+                                {
                                     "text": "",
                                     "font": "weedcraft:guide",
                                     "color": "white"
@@ -250,28 +270,8 @@
                                     "color": "aqua"
                                 },
                                 {
-                                    "text": "\n"
-                                },
-                                {
-                                    "text": "",
-                                    "font": "weedcraft:guide",
-                                    "color": "white"
-                                },
-                                {
                                     "text": "\nBottled Amethyst + Gunpowder + Bone Meal (shapeless).",
                                     "color": "black"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "raw": {
-                            "text": "",
-                            "extra": [
-                                {
-                                    "text": "Crystal Meth",
-                                    "bold": true,
-                                    "color": "aqua"
                                 },
                                 {
                                     "text": "\n\nCome-up:\n",
@@ -304,6 +304,26 @@
                             "text": "",
                             "extra": [
                                 {
+                                    "text": "Mixed Shrooms Recipe",
+                                    "bold": true,
+                                    "color": "light_purple"
+                                },
+                                {
+                                    "text": "\n\n\n\n\n\n\n"
+                                },
+                                {
+                                    "text": "",
+                                    "font": "weedcraft:guide",
+                                    "color": "white"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "raw": {
+                            "text": "",
+                            "extra": [
+                                {
                                     "text": "",
                                     "font": "weedcraft:guide",
                                     "color": "white"
@@ -317,28 +337,8 @@
                                     "color": "light_purple"
                                 },
                                 {
-                                    "text": "\n"
-                                },
-                                {
-                                    "text": "",
-                                    "font": "weedcraft:guide",
-                                    "color": "white"
-                                },
-                                {
                                     "text": "\nRed + Brown Shredded Shrooms + Nether Wart (shapeless).",
                                     "color": "black"
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "raw": {
-                            "text": "",
-                            "extra": [
-                                {
-                                    "text": "Mixed Shrooms",
-                                    "bold": true,
-                                    "color": "light_purple"
                                 },
                                 {
                                     "text": "\n\nCome-up:\n",
@@ -366,17 +366,29 @@
                             "text": "",
                             "extra": [
                                 {
-                                    "text": "Budding Amethyst",
+                                    "text": "Budding Amethyst Recipe",
                                     "bold": true,
                                     "color": "light_purple"
                                 },
                                 {
-                                    "text": "\n"
+                                    "text": "\n\n\n\n\n\n\n"
                                 },
                                 {
                                     "text": "",
                                     "font": "weedcraft:guide",
                                     "color": "white"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "raw": {
+                            "text": "",
+                            "extra": [
+                                {
+                                    "text": "Budding Amethyst",
+                                    "bold": true,
+                                    "color": "light_purple"
                                 },
                                 {
                                     "text": "\nSurround a Nether Star with Amethyst Blocks for a real budding amethyst — renewable crystals.",
